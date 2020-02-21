@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head><title>Web</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<script type="text/javascript">
+function fun_log()
+{
+var x=document.getElementById("username").value;
+var y=document.getElementById("password").value;
+if(x=="admin" && y=="admin"){
+window.open("main.html","_blank");
+}
+else{
+	alert("Redirecting to main page");
+window.open("main.html","_blank");
+}
+}
+</script>
+<body>
+<div class="transparentbox">
+<img src="image/uni.jpg" width="100%" height="100%" id="transimg">
+<form class="logpage" onsubmit="this.action=fun_log()" method="post">
+<font face="Colonna MT"><big>
+<h1>Login</h1></big></font>
+<input type="text" name="" placeholder="Username" id="username" required>
+<input type="password" name="" placeholder="Password" id="password" required>
+<input type="submit" name="" value="Login">
+<a href="requestpage.html"><p class="req">SignUp</p></a>
+</form>
+</div>
+</body>
+</html>

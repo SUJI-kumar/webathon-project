@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+<head><title>Login Request</title>
+ <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="request.css">
+<style>
+div{
+background-color: #afceff;
+text-align:center;
+top:3.7%;
+height:20%;
+width:99%;
+opacity:0.8;
+</style>
+<script>
+function f1()
+{
+alert("Your request has been submitted to service provider. You will get ur id and password on your gmail.");
+}
+</script>
+</head>
+<body>
+<img src="image/3.jpg" id="bckimg">
+<div><p id="hdtxt">Vertos</p><p id="hdtxt2">Learner</p></div>
+<img src="image/logo.jpg" alt="logo" height="125" width="120" id="logoimg">
+<font face="Colonna MT">
+<ul><big>
+<li><a href="main.html">Home</a></li>
+<li><a href="Mydetail.html">Your account</a></li>
+<li><a href="login.html"><img src="image/logout.png" alt="Logout" height="19px" width="20px"></a></li>
+</big></ul></font>
+<form onsubmit="this.action=f1()" class="reqpage" method="post">
+<h2>Log Request</h1><br>
+<input type="text" placeholder="Enter your full name" size="40" required>
+<input type="text" placeholder="Enter your registration number" size="10" required>
+<input type="email" placeholder="Enter your email address" size="30">
+<input type="tel" placeholder="Enter your phone number" size="10" required>
+<input type="text" placeholder="Enter your message" size="300" required>
+<input type="submit" value="Send Request">
+<input type="reset">
+</form>
+</body>
+</html>

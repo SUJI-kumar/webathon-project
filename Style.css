@@ -1,0 +1,98 @@
+img{
+	height:60px;
+	width: 90px;
+	margin-right: 10px;
+}
+.bg-light{
+	background-color: #26d0c9 !important;
+	border: 2px solid black;
+	/*position: fixed;*/
+}
+
+.navbar-light .navbar-toggler{
+	border:1px solid white;
+}
+.navbar-brand{
+	font-size:1.5rem !important;
+	color:white;
+	font-weight: 900;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:white;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color:white;
+}
+.navbar-light .navbar-brand {
+    color:white;
+}
+.left-menu{
+	color:white !important;
+	font-size:1.5rem;
+
+}
+.left-menu:hover{
+	background-color: green;
+}
+.transimg {
+	color: black;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-top: 80px;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url(https://creativetimblog.com/blog/wp-content/uploads/2019/09/christopher-gower-m_HRfLhgABo-unsplash-730x410.jpg);
+    }
+table {
+    position: absolute;
+    border: 2px solid;
+    top: 20%;
+    left: 1%;
+    font-size: 22px;
+    text-align: center;
+    color: blue;
+    height: 600px;
+    width: 1250px;
+}
+
+table th {
+    border: 1px solid green;
+    font-family: Colonna MT;
+    font-size: 28px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+.footer {
+ margin-top:650px;
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+.footer-icon{
+  float:left;
+ font-size: 36px;
+ padding:20px 40px;
+}
+.footer-list li{
+	margin-top:15px;
+  list-style:none;
+  float:right;
+  padding: 20px;
+  color: white;
+  font-size:20px;
+}
+.a:hover{
+	background-color: green;
+}
+.b:hover{
+	background-color: green;
+}
